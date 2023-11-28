@@ -1,0 +1,42 @@
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .featured {
+        flex-direction: column;
+    }
+
+    article {
+        flex-basis: 100%;
+    }
+}
+
+
